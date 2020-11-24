@@ -1,0 +1,206 @@
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: #ffffff;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 800px;
+	margin: 0 auto;
+	border: #931420 solid 3px;
+	background-color: #fffded;
+
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-color: #fffded;
+}
+
+aside {
+	width: 215px;
+	float: right;
+	padding-left: 20px;
+	padding-bottom: 141.5px;
+	background-color: #fffded;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: #931420 solid 3px;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image: linear-gradient(30deg,#f6bb73,#ffffff,#f6bb73,#ffffff);
+}
+header img {
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+header h2 {
+	font-size: 170%;
+	color: #800000;
+}
+
+header h3 {
+	font-size:130%;
+	font-style: italic;
+	color: #111111;
+
+}
+.shadow {
+	color: #800000;
+	text-shadow: 2px 2px 3px;
+}
+
+/* the styles for the navigation */
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#nav_menu ul li {
+	float: left;
+}
+
+#nav_menu ul li a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: none;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+}
+
+#nav_menu a.current {
+	color: yellow;
+}
+
+#nav_menu ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_menu ul ul li {
+	float: none;
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+/* the styles for the section */
+section img {
+	clear: left;
+	padding-bottom: 1em;
+}
+
+section h1 {
+	font-size: 150%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #800000;
+}
+
+section h2 {
+	font-size: 130%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+
+}
+
+section p {
+	padding-bottom: .5em;
+}
+
+section blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+}
+
+section ul {
+	padding-left: 1.25em;
+	padding-bottom: .25em;
+}
+
+section li {
+	padding-bottom: .35em;
+}
+
+aside h2 {
+	font-size: 130%;
+	color: #800000;
+	padding-top: .5em;
+	padding-bottom: .25em;
+
+}
+aside a:hover {
+	font-style: italic;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
+aside img {
+	padding-bottom: 1em;
+}
+
+article {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: #fffded;
+}
+
+article img {
+	float: right;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	margin-left: .5em;
+	border: 1px;
+	border-color: black;
+}
+
+article h2 {
+	padding-top: 0;
+}
+
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+/* the styles for the footer */
+footer {
+	background-color: #931420;
+}
+footer p {
+	text-align: center;
+	color: #ffffff;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	clear: right;
+}
